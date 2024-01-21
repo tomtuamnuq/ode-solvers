@@ -14,6 +14,7 @@ pub mod dop853;
 pub mod dop_shared;
 pub mod dopri5;
 pub mod rk4;
+pub mod complex;
 
 pub use dop853::Dop853;
 pub use dopri5::Dopri5;
